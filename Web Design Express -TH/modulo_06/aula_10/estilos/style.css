@@ -1,0 +1,48 @@
+/* block - próxima linha. */
+/* inline block - se mantém na mesma linha */
+
+/*margin - espaçamento externo */
+/* padding - espaçamento interno */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+/* % - tela toda. */
+
+/*
+.box{
+	height: 100px;
+	width: 100px;
+	background: gray;
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 30px;
+	margin-right: 30px;
+	margin-bottom: 10px;
+	margin: 20px 20px 20px 20px;
+	/*topo direita baixo esquerda
+
+}
+
+.box1{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background: red;
+}
+*/
+
+.box{
+	box-sizing: border-box;
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 30px;
+	display: inline-block;
+	background: green;
+}

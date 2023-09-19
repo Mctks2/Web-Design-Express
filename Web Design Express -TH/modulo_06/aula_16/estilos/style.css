@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+/* Float - posição e formação do conteiner individual */
+
+/*
+header{
+	background: grey;
+}
+
+.clear{clear:both;}
+
+.logo{
+	background: green;
+	float: left;
+}
+
+nav{
+	background: red;
+	float: right;
+}
+
+ul{
+	list-style-position: inside;
+}
+
+.box{
+	background: blue;
+	margin: 30px 0;
+	padding: 90px 0;
+}
+
+.content{
+	float: left;
+	width: 33.3%;
+	height: 100px;
+	background: red;
+}
+*/
+
+ 
+/*
+*{
+	box-sizing: border-box;	
+}
+
+/* Elemento pai */
+
+/* flex-wrap cai para prox */
+
+/*
+.container{
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 100%;
+	padding: 0 2%;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+*/
+
+/* display flex - deixa todos elementos lado a lado (coletivo)*/
+
+/* Elemento filho*/  
+
+/*
+.content{
+	border: 2px solid black;
+	width: 33.3%;
+	background: red;
+}
+*/
+
+*{
+	box-sizing: border-box;
+}
+
+/* text align funciona somente com display inline e inline block*/
+
+.container{
+	text-align: left;
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 100%;
+	padding: 0 2%;
+	background: green;
+}
+
+.content{
+	margin-bottom: -4px;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background: red;
+	border: 1px solid black;
+}
+
+

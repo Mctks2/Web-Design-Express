@@ -1,0 +1,19 @@
+/* block - próxima linha. */
+/* inline block - se mantém na mesma linha */
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	height: 100%;
+}
+
+/* % - tela toda. */
+.one{
+	height: 100%;
+	width: 100px;
+	min-height: 700px;
+	background: green;
+}

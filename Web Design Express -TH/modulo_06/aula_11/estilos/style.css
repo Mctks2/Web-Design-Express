@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+/* A propriedade overflow-y especifica se o conteúdo 
+deve ser recortado, adicionado uma barra de rolagem ou 
+exibido o conteúdo excedente de um elemento em nível de 
+bloco, quando ele transborda nas bordas superior e 
+inferior. */
+.box{
+	width: 100px;
+	height: 100px;
+	background: green;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+
+.filho{
+	width: 100px;
+	height: 200px;
+	background: red;
+}

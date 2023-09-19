@@ -1,0 +1,14 @@
+/*Colocando todos os paragrafos do header estão laranja.*/
+header.header1 p{
+	color: orange;
+}
+
+/* outra forma de hierarquia  */
+header.header1 > p{
+
+}
+
+/* !importante maior nivel de hierarquia */
+p{
+	color: red !important;
+}

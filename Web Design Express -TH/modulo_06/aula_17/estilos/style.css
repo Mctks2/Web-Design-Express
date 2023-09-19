@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+.box{
+	width: 500px;
+	height: 500px;
+	background: red;
+}
+
+/* seleciona elementos quando passa o mouse por cima. */
+
+.box:hover .conteudo{
+	color: green;
+	background: gray;
+}
+
+.conteudo{
+	transition: 1s;
+}
+
+/* usado para selecionar elementos com foco (aumenta)  */
+input:focus{
+	width: 200px;
+	height: 200px;
+	background: green;
+}
+
+input{
+	transition: 1s;
+	width: 100px;
+	height: 100px;
+}

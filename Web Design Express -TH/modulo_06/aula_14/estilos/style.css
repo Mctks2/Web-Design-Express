@@ -1,0 +1,45 @@
+/* * - todos os elementos. */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+/* position relative abre novas posições. */
+
+/*
+.box2{
+	width: 500px;
+	height: 500px;
+	background: red;
+}
+
+.box{
+	position: relative;
+	bottom: 90px;
+	right: 90px;
+	width: 500px;
+	height: 500px;
+	background: green;
+}
+*/
+
+/* Elemento Pai*/
+.box{
+	width: 500px;
+	height: 500px;
+	background: green;
+	position: relative;
+	left: 100px;
+}
+/* Elemento filho */
+
+.box p{
+	position: relative;
+	left: 0;
+	top: 0;
+}
+

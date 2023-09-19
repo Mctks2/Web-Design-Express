@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- meta - é usado para que o site web se enquadre proporcionalmente nas telas de celulares,  -->
+	<meta name="viewport" content="width=device-width, initial-scale=1 ,maximum-scale=1;">
+	<title> Responsivo | Mobile First </title>
+	<style type="text/css">
+		*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		}
+		/* clear - especifica se um elemento deve ser posicionado ao lado de elementos com float ou se devem ser colocados abaixo deles.
+		
+		both: Elemento é empurrado para baixo de elementos com float left ou right;
+		*/
+		.clear{clear: both;}
+
+		.container{
+			max-width: 1280px;
+			margin: 0 auto;
+		}
+
+		.box-single{
+			width: 33.3%;
+			height: 300px;
+			background: green;
+			float: left;
+			border: 1px solid black;
+		}
+		/* passou do min ou do max - 50% de visu.*/
+		@media screen and (min-width:  600px) and (max-height: 800px){
+			.box-single{
+				width: 50%;
+
+	</style>
+</head>
+<body>
+	<!-- container - centraliza o conteúdo -->
+	<!-- float - essa propriedade permite que tiremos um elemento do fluxo vertical da página e automaticamente faz com que o conteúdo que venha a seguir flutue ao seu redor.-->
+	<div class="container">
+		<div class="box">
+			<div class="box-single"></div>
+			<div class="box-single"></div>
+			<div class="box-single"></div>
+			<div class="clear"></div>
+		</div> <!--box-->
+	</div> <!--container-->
+</body>
+</html>

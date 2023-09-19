@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+p{
+	color: red;
+}
+
+.box p{
+	color: green;
+}
+
+h1{
+	background: blue;
+	font-size: 19px;
+}

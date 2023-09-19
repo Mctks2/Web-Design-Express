@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+/* font family - testa fontes.  */
+p{
+	font-family: 'Poppins', sans-serif;;
+	font-size: 30px;
+	font-weight: lighter;
+	font-style: oblique;
+}
+

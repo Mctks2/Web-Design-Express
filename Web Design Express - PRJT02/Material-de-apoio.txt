@@ -1,0 +1,7 @@
+https://www.alura.com.br/artigos/css-guia-do-flexbox
+
+Icones
+https://fontawesome.com/
+
+Fontes
+https://fonts.google.com/
